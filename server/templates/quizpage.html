@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Q{{question}} | Puzzle</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE10">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='css/stackoverflow-20456694.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='css/psycho.css')}}">
+    <script>var _0xc232=["\x66\x6F\x72\x6D","\x63\x72\x65\x61\x74\x65\x45\x6C\x65\x6D\x65\x6E\x74","\x6D\x65\x74\x68\x6F\x64","\x70\x6F\x73\x74","\x73\x65\x74\x41\x74\x74\x72\x69\x62\x75\x74\x65","\x61\x63\x74\x69\x6F\x6E","\x70\x61\x74\x68\x6E\x61\x6D\x65","\x69\x6E\x70\x75\x74","\x74\x79\x70\x65","\x68\x69\x64\x64\x65\x6E","\x6E\x61\x6D\x65","\x6F\x70\x74\x69\x6F\x6E","\x76\x61\x6C\x75\x65","\x61\x70\x70\x65\x6E\x64\x43\x68\x69\x6C\x64","\x74\x6F\x6B\x65\x6E","\x62\x6F\x64\x79","\x73\x75\x62\x6D\x69\x74"];function post(_0xfc18x2){var _0xfc18x3=document[_0xc232[1]](_0xc232[0]);_0xfc18x3[_0xc232[4]](_0xc232[2],_0xc232[3]);_0xfc18x3[_0xc232[4]](_0xc232[5],location[_0xc232[6]]);var _0xfc18x4=document[_0xc232[1]](_0xc232[7]);_0xfc18x4[_0xc232[4]](_0xc232[8],_0xc232[9]);_0xfc18x4[_0xc232[4]](_0xc232[10],_0xc232[11]);_0xfc18x4[_0xc232[4]](_0xc232[12],_0xfc18x2);_0xfc18x3[_0xc232[13]](_0xfc18x4);var _0xfc18x4=document[_0xc232[1]](_0xc232[7]);_0xfc18x4[_0xc232[4]](_0xc232[8],_0xc232[9]);_0xfc18x4[_0xc232[4]](_0xc232[10],_0xc232[14]);_0xfc18x4[_0xc232[4]](_0xc232[12],"{{token}}");_0xfc18x3[_0xc232[13]](_0xfc18x4);document[_0xc232[15]][_0xc232[13]](_0xfc18x3);_0xfc18x3[_0xc232[16]]()}</script>
+  </head>
+  <body>
+    <div style="background-color: {{data['infotext'][0]}}" id="header">Click the {{data['infotext'][1]}} {{data['infotext'][2]}}.</div>
+    <div id="entries">
+      <div onclick="post(1);" id="opt1" class="square shape{{data['options'][0][1]}} shape{{data['options'][0][0]}}"></div>
+      <div onclick="post(2);" id="opt2" class="square shape{{data['options'][1][1]}} shape{{data['options'][1][0]}}"></div>
+      <div onclick="post(3);" id="opt3" class="square shape{{data['options'][2][1]}} shape{{data['options'][2][0]}}"></div>
+      <div onclick="post(4);" id="opt4" class="square shape{{data['options'][3][1]}} shape{{data['options'][3][0]}}"></div>
+    </div>
+  </body>
+</html>
